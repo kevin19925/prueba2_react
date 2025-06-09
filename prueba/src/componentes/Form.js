@@ -20,6 +20,7 @@ const Form = (props) => {
   const registerHandler = (e) => {
     e.preventDefault();
     props.addCurso(state);
+     navigate("/listar");
   };
 
   const handleName = (e) => {
